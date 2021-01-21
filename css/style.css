@@ -1,0 +1,98 @@
+body {
+    font: 300 11px/1.4 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: black;
+    background: white;
+    display: block;
+
+}
+h2 {
+    display: block;
+}
+img {
+    width: 92%;
+    height: auto;
+    align-items: center;
+}
+.logo{
+  width: 70px;
+  height: 70px;
+  padding: 0;
+}
+.logo-link{
+  height: 70px;
+}
+.outer-container{
+  margin-left: auto;
+  margin-right: auto;
+}
+.nav-container{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-top{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border: 0;
+  font-size: 100%;
+  margin-left: auto;
+}
+.list-item{
+  padding: 0;
+  list-style: none;
+}
+li.list-item{
+  font-size: 1.5em;
+  line-height: 1em;
+  display: list-item;
+  margin-right: 50px;
+}
+.list-item a{
+  color: black;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+
+.page{
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%
+}
+.banner-title{
+  font-size: 2.5em;
+  color: black;
+}
+.banner-subtitle{
+  font-size: 1.5em;
+}
+.photo{
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+}
+.profilePhoto{
+  border-radius: 25px;
+  border-style: solid;
+  border-width: 2px;
+  margin: 1em;
+  align-content: center;
+}
+.flat-button{
+    color: black;
+    font-size: 13px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 10px 18px;
+    border: 1px solid black;
+    float: left;
+}
