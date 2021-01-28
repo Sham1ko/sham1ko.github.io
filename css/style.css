@@ -1,12 +1,11 @@
 body {
-    font: 300 11px/1.4 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    color: black;
-    background: white;
+  font-family: 'Poppins', sans-serif;
+  background: #74ebd5;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     display: block;
+    margin: 0px;
 
-}
-h2 {
-    display: block;
 }
 img {
     width: 92%;
@@ -17,13 +16,21 @@ img {
   width: 70px;
   height: 70px;
   padding: 0;
+  margin-left: 43.325px;
 }
 .logo-link{
   height: 70px;
 }
 .outer-container{
-  margin-left: auto;
-  margin-right: auto;
+  background: #74ebd5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+border-bottom: 2px;
+border-top: 0px;
+border-left: 0px;
+border-right: 0px;
+border-style: solid;
+
 }
 .nav-container{
   padding-top: 20px;
@@ -55,14 +62,12 @@ li.list-item{
   text-decoration: none;
   font-weight: 700;
 }
-
-
-.page{
+.homepage{
   position: relative;
   display: flex;
   align-items: center;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   margin-left: auto;
   margin-right: auto;
   width: 90%
@@ -78,6 +83,9 @@ li.list-item{
   align-items: center;
   display: flex;
   justify-content: flex-end;
+  float: right;
+  max-width: 74%;
+  width: auto;
 }
 .profilePhoto{
   border-radius: 25px;
@@ -95,4 +103,64 @@ li.list-item{
     padding: 10px 18px;
     border: 1px solid black;
     float: left;
+}
+a{
+  text-decoration: none;
+  letter-spacing: 3px;
+  color: black;
+}
+.about{
+  position: relative;
+  align-items: center;
+  padding-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%
+}
+p{
+  display: inline;
+}
+h1{
+  font-size: 2.5em;
+  margin: 0px;
+}
+.about-title{
+  display: flex;
+}
+footer{
+  background: #74ebd5;
+  background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+align-content: center;
+text-align: center;
+border-bottom: 0px;
+border-top: 2px;
+border-left: 0px;
+border-right: 0px;
+border-style: solid;
+bottom: auto;
+display: block;
+font-size: 0.8em;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+.skills{
+  font-size: 1.5em;
+  padding-left: 35px;
+}
+.portfolio{
+  font-size: 1.5em;
+  padding-left: 35px;
+}
+.contact{
+  padding-left: 35px;
+}
+
+.aitulogo{
+  width: 75px;
+}
+.logopm{
+width: 20px;
+}
+.nis{
+  width: 75px;
 }
